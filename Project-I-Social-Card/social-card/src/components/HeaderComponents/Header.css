@@ -11,8 +11,8 @@
 .headerContainer .img {
     width: 50px;
     height: 50px;
-    padding: 5px 15px;
-    margin: 0 10px 0 20px;
+    padding: 0 15px;
+    margin: 15px 10px 0 20px;
     background: url(../images/lambda-logo.png) no-repeat center center;
 }
 
@@ -23,6 +23,7 @@
 
 .headerContainer .vertical h1 {
     font-size: 1.3rem;
+    margin: 15px 0 0;
 }
 
 .headerContainer .vertical h1 i {
