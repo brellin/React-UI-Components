@@ -1,2 +1,7 @@
 import React from 'react';
-import './Card.scss';
+
+const CardBanner = () => {
+    return <div className="image"></div>;
+}
+
+export default CardBanner;
