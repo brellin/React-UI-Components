@@ -6,70 +6,70 @@ import Action from './components/ButtonComponents/ActionButton';
 
 let nums = [
   {
-    class: 'seven',
+    class: 'button seven',
     number: '7'
   },
   {
-    class: 'eight',
+    class: 'button eight',
     number: '8'
   },
   {
-    class: 'nine',
+    class: 'button nine',
     number: '9'
   },
   {
-    class: 'four',
+    class: 'button four',
     number: '4'
   },
   {
-    class: 'five',
+    class: 'button five',
     number: '5'
   },
   {
-    class: 'six',
+    class: 'button six',
     number: '6'
   },
   {
-    class: 'one',
+    class: 'button one',
     number: '1'
   },
   {
-    class: 'two',
+    class: 'button two',
     number: '2'
   },
   {
-    class: 'three',
+    class: 'button three',
     number: '3'
   },
   {
-    class: 'zero',
+    class: 'button zero',
     number: '0'
   }
 ];
 
 let act = [
   {
-    class: 'clear',
+    class: 'button clear',
     text: 'clear'
   },
   {
-    class: 'divide',
-    text: '/'
+    class: 'button fas fa-divide divide',
+    text: ''
   },
   {
-    class: 'mult',
+    class: 'button mult',
     text: 'X'
   },
   {
-    class: 'subtract',
+    class: 'button subtract',
     text: '-'
   },
   {
-    class: 'add',
+    class: 'button add',
     text: '+'
   },
   {
-    class: 'equals',
+    class: 'button equals',
     text: '='
   },
 ]
