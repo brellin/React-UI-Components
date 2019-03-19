@@ -1,0 +1,125 @@
+.one {
+    grid-area: one;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+    border-left: 2px solid #9a9a9a;
+}
+
+.two {
+    grid-area: two;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+}
+
+.three {
+    grid-area: three;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+}
+
+.four {
+    grid-area: four;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+    border-left: 2px solid #9a9a9a;
+}
+
+.five {
+    grid-area: five;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+}
+
+.six {
+    grid-area: six;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+}
+
+.seven {
+    grid-area: seven;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+    border-left: 2px solid #9a9a9a;
+}
+
+.eight {
+    grid-area: eight;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+}
+
+.nine {
+    grid-area: nine;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+}
+
+.zero {
+    grid-area: zero;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+}
+
+.clear {
+    grid-area: clear;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+    border-left: 2px solid #9a9a9a;
+}
+
+.divide {
+    grid-area: divide;
+    background: #a2021c;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+    border-right: 2px solid #9a9a9a;
+}
+
+.mult {
+    grid-area: mult;
+    background: #a2021c;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+    border-right: 2px solid #9a9a9a;
+}
+
+.add {
+    grid-area: add;
+    background: #a2021c;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+    border-right: 2px solid #9a9a9a;
+}
+
+.subtract {
+    grid-area: subtract;
+    background: #a2021c;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+    border-right: 2px solid #9a9a9a;
+}
+
+.equals {
+    grid-area: equals;
+    background: #a2021c;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid #9a9a9a;
+    border-right: 2px solid #9a9a9a;
+}

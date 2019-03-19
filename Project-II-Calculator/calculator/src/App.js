@@ -1,21 +1,85 @@
 import React from 'react';
 import './App.css';
+import Display from './components/DisplayComponents/CalculatorDisplay';
+import Num from './components/ButtonComponents/NumberButton';
+import Action from './components/ButtonComponents/ActionButton';
 
-const App = () => {
+let nums = [
+  {
+    class: 'seven',
+    number: '7'
+  },
+  {
+    class: 'eight',
+    number: '8'
+  },
+  {
+    class: 'nine',
+    number: '9'
+  },
+  {
+    class: 'four',
+    number: '4'
+  },
+  {
+    class: 'five',
+    number: '5'
+  },
+  {
+    class: 'six',
+    number: '6'
+  },
+  {
+    class: 'one',
+    number: '1'
+  },
+  {
+    class: 'two',
+    number: '2'
+  },
+  {
+    class: 'three',
+    number: '3'
+  },
+  {
+    class: 'zero',
+    number: '0'
+  }
+];
+
+let act = [
+  {
+    class: 'clear',
+    text: 'clear'
+  },
+  {
+    class: 'divide',
+    text: '/'
+  },
+  {
+    class: 'mult',
+    text: 'X'
+  },
+  {
+    class: 'subtract',
+    text: '-'
+  },
+  {
+    class: 'add',
+    text: '+'
+  },
+  {
+    class: 'equals',
+    text: '='
+  },
+]
+
+function App() {
   return (
-    <div>
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+    <div className='container'>
+      <Display />
+      {nums.map(num => (<Num text={num} />))}
+      {act.map(action => (<Action act={action} />))}
     </div>
   );
 };

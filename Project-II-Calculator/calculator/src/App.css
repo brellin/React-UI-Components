@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    max-width: 500px;
+    font-size: 7.5rem;
+    margin: 0 auto;
+    background: #232323;
+    display: grid;
+    grid-template-columns: 125px 125px 125px 125px;
+    grid-template-rows: 125px 100px 100px 100px 100px 100px;
+    grid-template-areas: 'display display display display' 'clear clear clear divide' 'seven eight nine mult' 'four five six subtract' 'one two three add' 'zero zero zero equals';
+}
