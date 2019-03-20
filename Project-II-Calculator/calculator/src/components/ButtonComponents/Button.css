@@ -1,0 +1,114 @@
+/*All Buttons*/
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #9a9a9a;
+}
+
+/*Number Buttons*/
+
+.one {
+    grid-area: one;
+    background: whitesmoke;
+    border-left: 2px solid #9a9a9a;
+}
+
+.two {
+    grid-area: two;
+    background: whitesmoke;
+}
+
+.three {
+    grid-area: three;
+    background: whitesmoke;
+}
+
+.four {
+    grid-area: four;
+    background: whitesmoke;
+    border-left: 2px solid #9a9a9a;
+}
+
+.five {
+    grid-area: five;
+    background: whitesmoke;
+}
+
+.six {
+    grid-area: six;
+    background: whitesmoke;
+}
+
+.seven {
+    grid-area: seven;
+    background: whitesmoke;
+    border-left: 2px solid #9a9a9a;
+}
+
+.eight {
+    grid-area: eight;
+    background: whitesmoke;
+}
+
+.nine {
+    grid-area: nine;
+    background: whitesmoke;
+}
+
+.zero {
+    grid-area: zero;
+    background: whitesmoke;
+    border: 2px solid #9a9a9a;
+    border-top: 1px solid #9a9a9a;
+    border-right: 1px solid #9a9a9a;
+}
+
+/*Action Buttons*/
+
+.clear {
+    grid-area: clear;
+    background: whitesmoke;
+    border-left: 2px solid #9a9a9a;
+    font-weight: lighter;
+}
+
+.divide {
+    grid-area: divide;
+    background: #a2021c;
+    color: whitesmoke;
+    border-right: 2px solid #9a9a9a;
+}
+
+.mult {
+    grid-area: mult;
+    background: #a2021c;
+    color: whitesmoke;
+    border-right: 2px solid #9a9a9a;
+    font-weight: lighter;
+}
+
+.add {
+    grid-area: add;
+    background: #a2021c;
+    color: whitesmoke;
+    border-right: 2px solid #9a9a9a;
+    font-weight: lighter;
+}
+
+.subtract {
+    grid-area: subtract;
+    background: #a2021c;
+    color: whitesmoke;
+    border-right: 2px solid #9a9a9a;
+    font-weight: lighter;
+}
+
+.equals {
+    grid-area: equals;
+    background: #a2021c;
+    color: whitesmoke;
+    border-right: 2px solid #9a9a9a;
+    font-weight: lighter;
+}

@@ -1,0 +1,9 @@
+.display {
+    color: whitesmoke;
+    text-align: right;
+    grid-area: display;
+    padding: 20px;
+    font-size: 7.5rem;
+    border: 2px solid #9a9a9a;
+    border-bottom: 1px;
+}
