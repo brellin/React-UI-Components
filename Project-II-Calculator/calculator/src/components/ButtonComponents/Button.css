@@ -7,6 +7,10 @@
     border: 1px solid #9a9a9a;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 /*Number Buttons*/
 
 .one {

@@ -74,11 +74,15 @@ let act = [
   },
 ]
 
+let input = 0;
+
 function App() {
   return (
     <div className='container'>
-      <Display />
-      {nums.map(num => (<Num text={num} />))}
+      <Display input={input} />
+      {nums.map(num => (<Num text={num} onClick={function () {
+        return input = input + num.number;
+      }} />))}
       {act.map(action => (<Action act={action} />))}
     </div>
   );

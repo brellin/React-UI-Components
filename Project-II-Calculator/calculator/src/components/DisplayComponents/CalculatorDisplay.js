@@ -3,7 +3,7 @@ import './Display.css';
 
 function Display(props) {
     return (
-        <div className='display'>0</div>
+        <div className='display'>{props.input}</div>
     )
 }
 
